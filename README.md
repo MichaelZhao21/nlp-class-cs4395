@@ -14,3 +14,4 @@
  '----------------'  '----------------'  '----------------'
 ```
 
+Here's my [Overview of NLP](nlp-overview.pdf) -- assignment 0 of the class!
