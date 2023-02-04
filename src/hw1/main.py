@@ -1,9 +1,10 @@
 import sys
 import re
+import pickle
 
 # Compile regex patterns
 ID_PATTERN = re.compile('\w\w\d\d')
-PHONE_PATTERN = re.compile('\d{3}-\d{3}-\d{4}')
+PHONE_PATTERN = re.compile('^(\d{3})\D{0,1}(\d{3})\D{0,1}(\d{4})$')
 
 
 class Person:
@@ -73,14 +74,20 @@ def process_id(id: str) -> str:
 
 def process_phone(phone: str) -> str:
     '''
-    Make sure ID is correct and reprompt if not
+    Make sure phone num is correct and reprompt if not
     '''
+    # Check to make sure phone pattern matches
+    # This actually ignores the dashes (can be any character)
     while not PHONE_PATTERN.match(phone):
         print('Phone # invalid: ', phone)
         print('Enter phone number in form 123-456-7890')
         phone = input('Enter phone number: ')
 
-    return phone
+    # Extract the phone number from the regex
+    m = re.search(PHONE_PATTERN, phone)
+
+    # Return formatted phone number
+    return f'{m.group(1)}-{m.group(2)}-{m.group(3)}'
 
 
 def process_input_file(file_path: str) -> list[Person]:
@@ -103,8 +110,6 @@ def process_input_file(file_path: str) -> list[Person]:
                 first_row = False
                 continue
             
-            print(line)
-
             # Split each other line by commas
             split = line.split(',')
             last = process_name(split[0])
@@ -118,9 +123,9 @@ def process_input_file(file_path: str) -> list[Person]:
                 print("Error: Duplicated ID", id, "found")
 
             # Add to output dict
-            output.update({ id: Person(last, first, mi, id, phone) })
+            output[id] = Person(last, first, mi, id, phone)
 
-    # Return the filled person array
+    # Return the filled person dict
     return output
 
 
@@ -134,9 +139,16 @@ def main():
     # Read the datafile and return an array of Person objects
     people = process_input_file(datafile_path)
 
-    print(people)
-    for p in people:
-        p.display()
+    # Store dict in a pickle
+    with open("people.pickle", "wb") as file:
+        pickle.dump(people, file)
+
+    # Open the pickle file for read, and print each person
+    with open("people.pickle", "rb") as file:
+        people = pickle.load(file)
+        for p in people.values():
+            p.display()
 
 if __name__ == '__main__':
     main()
+    
