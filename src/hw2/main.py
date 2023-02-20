@@ -99,7 +99,6 @@ def guessing_game(poss_words: list[str]):
 
     # Randomly choose secret word and convert it to a list
     word = list(random.choice(poss_words))
-    print(word)
 
     # Create display string for guessed letters
     display = list('_' * len(word))
