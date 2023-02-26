@@ -32,3 +32,7 @@ I've actually used Python in the past for an internship to do data processing an
 
 This program is a guessing game, which reads from a text file and figures out the word frequencies and lexical diversities.
 
+# [Assignment 3](https://github.com/MichaelZhao21/nlp-class-cs4395/tree/master/src/hw3/wordnet.ipynb)
+
+This notebook explores WordNet through the NLTK library.
+
