@@ -36,3 +36,10 @@ This program is a guessing game, which reads from a text file and figures out th
 
 This notebook explores WordNet through the NLTK library.
 
+# [Assignment 4](https://github.com/MichaelZhao21/nlp-class-cs4395/tree/master/src/hw4)
+
+We explore the ins and outs of ngrams using the NLTK library.
+
+# [Assignment 5](https://github.com/MichaelZhao21/nlp-class-cs4395/tree/master/src/hw5/sentence-parsing.pdf)
+
+Exploration of sentence parsing using 3 different methods: PSG, dependency, and SRL.
