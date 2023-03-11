@@ -43,3 +43,7 @@ We explore the ins and outs of ngrams using the NLTK library.
 # [Assignment 5](https://github.com/MichaelZhao21/nlp-class-cs4395/tree/master/src/hw5/sentence-parsing.pdf)
 
 Exploration of sentence parsing using 3 different methods: PSG, dependency, and SRL.
+
+# [Assignment 6](https://github.com/MichaelZhao21/nlp-class-cs4395/tree/master/src/hw6)
+
+Created a knowledge base by scraping a webpage. I did mine on the Hollow Knight fandom pages.
