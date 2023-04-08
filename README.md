@@ -52,3 +52,8 @@ Created a knowledge base by scraping a webpage. I did mine on the Hollow Knight 
 
 Used scikit learn to perform text classification using three different methods: Naive Bayes, Linear Regression, and Neural Networks.
 
+# [Assignment 8](https://github.com/MichaelZhao21/nlp-class-cs4395/tree/master/src/hw8/acl-summary.pdf)
+
+This is a summary of the paper from the ACL Long Paper Conference: [Is GPT-3 Text Indistinguishable from Human Text?
+SCARECROW: A Framework for Scrutinizing Machine Text](https://aclanthology.org/2022.acl-long.501.pdf)
+
