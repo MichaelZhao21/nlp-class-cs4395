@@ -57,3 +57,6 @@ Used scikit learn to perform text classification using three different methods: 
 This is a summary of the paper from the ACL Long Paper Conference: [Is GPT-3 Text Indistinguishable from Human Text?
 SCARECROW: A Framework for Scrutinizing Machine Text](https://aclanthology.org/2022.acl-long.501.pdf)
 
+# [Assignment 9](https://github.com/MichaelZhao21/hollow-knight-chatbot)
+
+This is a Chatbot for Hollow Knight! The bot uses a scraped knowledge base, custom model, and Rasa to build the chat functionality. See the writeup uploaded to the repo: [Hollow Knight Chatbot Writeup](https://github.com/MichaelZhao21/nlp-class-cs4395/tree/master/src/hw9/chatbot-report.pdf).
