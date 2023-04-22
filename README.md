@@ -60,3 +60,7 @@ SCARECROW: A Framework for Scrutinizing Machine Text](https://aclanthology.org/2
 # [Assignment 9](https://github.com/MichaelZhao21/hollow-knight-chatbot)
 
 This is a Chatbot for Hollow Knight! The bot uses a scraped knowledge base, custom model, and Rasa to build the chat functionality. See the writeup uploaded to the repo: [Hollow Knight Chatbot Writeup](https://github.com/MichaelZhao21/nlp-class-cs4395/tree/master/src/hw9/chatbot-report.pdf).
+
+# [Assignment 10](https://github.com/MichaelZhao21/nlp-class-cs4395/tree/master/src/hw10/text-classification-2.pdf)
+
+This assignment revolves around a similar premise to Assignment 7, but this time we were building models using Keras. I used Embeddings and a RNN to classify book reviews and determine which star rating was most likely. Included in this document was also the failed attempt to classify books into genres using their descriptions.
