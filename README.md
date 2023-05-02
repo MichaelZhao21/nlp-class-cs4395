@@ -64,3 +64,11 @@ This is a Chatbot for Hollow Knight! The bot uses a scraped knowledge base, cust
 # [Assignment 10](https://github.com/MichaelZhao21/nlp-class-cs4395/tree/master/src/hw10/text-classification-2.pdf)
 
 This assignment revolves around a similar premise to Assignment 7, but this time we were building models using Keras. I used Embeddings and a RNN to classify book reviews and determine which star rating was most likely. Included in this document was also the failed attempt to classify books into genres using their descriptions.
+
+# Assignment 11
+
+[**My Resume**](https://cdn.michaelzhao.xyz/resume.pdf) with technical skills and soft skills!
+
+After completing this class, I have gained a strong foundation in the essential concepts of natural language processing (NLP). I am now capable of performing morphological analysis, computing n-gram statistics and smoothing, utilizing and understanding part-of-speech taggers, and employing various parsing algorithms and techniques through Python, NLTK, and Keras/Scikit-Learn. I also have knowledge of semantic representations, including FrameNet, WordNet, PropBank, and semantic parsing techniques that use them. Additionally, I've gained an understanding of statistical machine translation and the ability to apply NLP techniques with machine learning to modern applications.
+
+I am enthusiastic about NLP and plan to continue exploring this hot and developing field. In my future personal projects, I aim to further develop my skills and apply NLP techniques to new domains, such as personal chatbots or integrated in some larger application. To keep up with the latest advancements in NLP, I plan to continue exploring this field on my own and potentially read into more research papers on the topic. Although I may not look for an NLP-related job in the future, who knows... it might just be something that applies to all jobs one day!
